@@ -1,0 +1,51 @@
+{
+  "name": "product-recognition-frontend-mobile",
+  "version": "1.0.0",
+  "description": "React Native mobile app for real-time product recognition using YOLOv8",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "clear": "expo start --clear",
+    "tunnel": "expo start --tunnel",
+    "build:android": "expo build:android",
+    "build:ios": "expo build:ios",
+    "eject": "expo eject",
+    "test": "jest",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+  },
+  "keywords": [
+    "react-native",
+    "expo",
+    "product-recognition",
+    "yolo",
+    "computer-vision",
+    "mobile",
+    "camera",
+    "ml"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^2.2.0",
+    "expo": "~53.0.22",
+    "expo-av": "^15.1.7",
+    "expo-camera": "^16.1.11",
+    "expo-file-system": "^18.1.11",
+    "expo-image-picker": "^16.1.4",
+    "expo-status-bar": "~2.2.3",
+    "react": "19.0.0",
+    "react-native": "0.79.6",
+    "react-native-svg": "^15.12.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "your-repository-url"
+  },
+  "private": true
+}
